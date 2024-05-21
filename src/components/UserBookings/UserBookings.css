@@ -1,0 +1,37 @@
+.userBookings {
+    height: 100%;
+    overflow: hidden;
+    background-image: url('../../pictures/loginBackground2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.userData {
+    margin-top: 50px; 
+    /* Adjust this value as needed */
+}
+
+.bookingRows {
+    background-color: white;
+    box-shadow: var(--shadow-1);
+    border: 2px solid #FFD300;
+    border-radius: 20px;
+    margin: 10px 0; /* Adjust top and bottom margins */
+    padding: 15px; /* Adjust the overall padding */
+    overflow:hidden;
+}
+
+.bookingRows img {
+    border-radius: 5px;
+    height: 140px;
+    margin-bottom: 10px; /* Adjust the bottom margin for the image */
+}
+
+.bookingRows p {
+    margin: 5px 0; /* Adjust top and bottom margins for paragraphs */
+}
+
+.bookingRows .text-right {
+    text-align: right;
+}
