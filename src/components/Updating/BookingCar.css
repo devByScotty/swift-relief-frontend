@@ -1,0 +1,34 @@
+.bookingcar {
+    margin-top: 120px;
+}
+
+
+.car {
+    border-radius: 5px;
+    margin-top: 100px;
+    height: 180px;
+    transition: 0.3s; /* Corrected typo here */
+    background-color: white;
+  }
+  
+  .car:hover {
+    height: 220px;
+  }
+  
+  .car:hover > .car-content {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  
+  .carimg {
+    height: 180px;
+    width: auto;
+    border-radius: 5px;
+    transform: translateY(-50px);
+  }
+  
+  .car-content {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  

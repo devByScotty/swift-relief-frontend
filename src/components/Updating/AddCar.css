@@ -1,0 +1,29 @@
+.editCarBg {
+    height:100vh;
+    background-image:url('../../pictures/loginBackground2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+
+}
+
+.editCar {
+    
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.editForm {
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%; /* Ensure the form takes up the full width */
+    max-width: 700px; /* Adjust the maximum width as needed */
+    margin: 90px auto; /* Center the form horizontally */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-shadow:var(--shadow-1);
+    border:2px solid var(--shadow-2);
+    
+}
